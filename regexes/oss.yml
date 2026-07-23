@@ -1570,10 +1570,21 @@
   name: 'iOS'
   version: '26.$1'
 
+
+
+
 # https://webkit.org/blog/17333/webkit-features-in-safari-26-0/#update-to-ua-string
-- regex: 'iPhone OS 18_7.+Version/(\d+[.\d]+)'
+- regex: 'iPhone OS (18)_[6|7].+Version/(?!\1)(\d+[.\d]+)'
+  name: 'iOS'
+  version: '$2'
+
+- regex: 'iPhone OS (18_6_2).+Version/18.6'
   name: 'iOS'
   version: '$1'
+
+- regex: 'iPhone OS (?:(18)_[6|7]_?\d?).+Version/(\1.\d?[.\d]+)'
+  name: 'iOS'
+  version: '$2'
 
 - regex: 'iOS/(\d+[.\d]+)$'
   name: 'iOS'
