@@ -6956,7 +6956,7 @@
   os:
     name: iOS
     short_name: IOS
-    version: "18.3"
+    version: 18.3.1
     platform: ""
     family: iOS
 -
@@ -6964,7 +6964,7 @@
   os:
     name: iOS
     short_name: IOS
-    version: "18.4"
+    version: 18.4.1
     platform: ""
     family: iOS
 -
@@ -6972,6 +6972,6 @@
   os:
     name: iOS
     short_name: IOS
-    version: "18.4"
+    version: 18.4.1
     platform: ""
     family: iOS
