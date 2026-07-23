@@ -1981,3 +1981,36 @@
     model: iPad
   os_family: iOS
   browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (Linux; Android 11; SM-A715F Build/RP1A.200720.012) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36 GNews Android/2022011568
+  os:
+    name: Android
+    version: 11
+    platform: ""
+  client:
+    type: mobile app
+    name: Google News
+    version: 2022011568
+  device:
+    type: smartphone
+    brand: Samsung
+    model: Galaxy A71
+  os_family: Android
+  browser_family: Unknown
+-
+  user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/605.1.15 GNews iOS/5.104.2200
+  os:
+    name: iOS
+    version: 18.3.1
+    platform: ""
+  client:
+    type: mobile app
+    name: Google News
+    version: 5.104.2200
+  device:
+    type: smartphone
+    brand: Apple
+    model: iPhone
+  os_family: iOS
+  browser_family: Unknown
+
